@@ -1,0 +1,7 @@
+Railways
+com.andrewbrookins.wrap_to_column
+com.paperetto.dash
+io.github.sirlantis.rubymine.rubocop
+mobi.hsz.idea.gitignore
+org.intellij.plugins.markdown
+org.jetbrains.plugins.yaml
