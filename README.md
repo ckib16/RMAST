@@ -78,7 +78,7 @@ I love me some RubyMine. But I didn't want to give up the great key bindings fro
 
 ### Importing Settings (Installing Keymaps)
 1. Go to File > Import Settings and specify the directory where the `rubymine_atom_sublimetext_RMAST.jar` lives. 
-2. Click the items you want to import ( `Keymaps` ) and click `OK` in the dialog.
+2. Click the items you want to import - `Keymaps` - and click `OK` in the dialog.
 3. Restart RubyMine
 4. Go to Preferences > Keymap > Keymaps and select the new keymap `RMAST`
 
@@ -97,7 +97,7 @@ Mac:
 ## Contributing
 
 ### Questions, Feedback
-Please post questions or feedback in an [Issue](https://github.com/leopku/rubymine-keymap-sublime/issues).
+Please post questions or feedback in an [Issue](https://github.com/ckib16/rubymine_atom_sublimetext_RMAST/issues).
 
 
 ### Contributing
