@@ -77,10 +77,12 @@ I love me some RubyMine. But I didn't want to give up the great key bindings fro
 [RubyMine](https://www.jetbrains.com/ruby/)
 
 ### Importing Settings (Installing Keymaps)
-1. Go to File > Import Settings and specify the directory where the `rubymine_atom_sublimetext_RMAST.jar` lives. 
-2. Click the items you want to import - `Keymaps` - and click `OK` in the dialog.
-3. Restart RubyMine
-4. Go to Preferences > Keymap > Keymaps and select the new keymap `RMAST`
+1. Download the .jar folder 
+	- Or...if you want to know exactly what you are downloading - download all other individual folders EXCEPT for the .jar folder. Then zip them & turn them into your own .jar folder (see "notes on .jar files" below).
+2. Go to File > Import Settings and specify the directory where the `rubymine_atom_sublimetext_RMAST.jar` lives. 
+3. Click the items you want to import - probably "Keymaps" - and click `OK` in the dialog.
+4. Restart RubyMine
+5. Go to Preferences > Keymap > Keymaps and select the new keymap `RMAST`
 
 ### Exporting Settings
 1. RubyMine > File > Export Settings...
