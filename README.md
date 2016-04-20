@@ -1,5 +1,7 @@
 #RubyMine Atom Sublime Text (RMAST)
-I love me some RubyMine. But I didn't want to give up the great key bindings from Atom and Sublime Text. So I started looking for resources that could help me bridge the three editors. This RMAST ("R Mast ") repo is the result.      
+I love me some RubyMine. But I didn't want to give up the great key bindings from Atom and Sublime Text. So I started looking for resources that could help me bridge the three editors. This RMAST ("R Mast ") repo is the result.    
+
+With this repo...  
   
 - I added the best Atom and Sublime Text 3 (ST3) key bindings to the RubyMine (RM) key map. 
 - I made a cheatsheet to help drill them into my head
