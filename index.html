@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>RMAST by ckib16</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>RMAST</h1>
+        <h2>A standardized keymap for RubyMine, Atom or Sublime Text (RMAST)</h2>
+        <a href="https://github.com/ckib16/rubymine_atom_sublimetext_RMAST" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="rubymine-atom-sublime-text-rmast" class="anchor" href="#rubymine-atom-sublime-text-rmast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RubyMine Atom Sublime Text (RMAST)</h1>
+
+<p>I love me some RubyMine. But I didn't want to give up the great key bindings from Atom and Sublime Text. So I started looking for resources that could help me bridge the three editors. This RMAST ("R Mast ") repo is the result.      </p>
+
+<ul>
+<li>I added the best Atom and Sublime Text 3 (ST3) key bindings to the RubyMine (RM) key map. </li>
+<li>I made a cheatsheet to help drill them into my head</li>
+</ul>
+
+<h2>
+<a id="why" class="anchor" href="#why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why</h2>
+
+<ul>
+<li>RubyMine is great. But being able to jump to ST3 or Atom is very handy and avoids letting one editor "lock you in"</li>
+<li>ST3 is the "industry leader" with nice key mappings and multiple cursor option. Atom has followed the ST3 lead with most key bindings.</li>
+<li>I wanted to practice on one keymap that works well on all three editors. And I needed a cheat-sheet to help me practice the most useful editor key bindings.</li>
+</ul>
+
+<h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h2>
+
+<ul>
+<li>
+<code>/</code> is used in the chart below to separate similar commands, it is not meant to be typed</li>
+<li>Where conflicts occurred when adding a new binding, the default RubyMine key binding was removed to prevent future errors &amp; unintended actions</li>
+<li> Some of the key mappings - such as the RubyMine editor pane management command 'Split Vertically' - are not a direct mapping of ST3 or Atom. But they are the closest RM comes to the same intent (in my opinion)</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="search--navigation" class="anchor" href="#search--navigation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Search &amp; Navigation</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>RM Keymapping</strong></th>
+<th><strong>RM Action Name</strong></th>
+<th><strong>Re-map?</strong></th>
+<th><strong>Standard RM?</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⇧*2  (Double Shift)</td>
+<td>'Search Everywhere'</td>
+<td></td>
+<td>X</td>
+<td>Similar to combination of ST3 ⌘⇧P + ⌘P</td>
+</tr>
+<tr>
+<td>⌘⇧P</td>
+<td>'Find Action'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3: "Command  Palette"</td>
+</tr>
+<tr>
+<td>⌘P</td>
+<td>'File'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3: "Goto Anything"</td>
+</tr>
+<tr>
+<td>⌘E</td>
+<td>'Recent Files'</td>
+<td></td>
+<td>X</td>
+<td>Search recent files, better than the default "switcher"</td>
+</tr>
+<tr>
+<td>⌘⇧F</td>
+<td>'Find in Path'</td>
+<td></td>
+<td>X</td>
+<td>Find in project</td>
+</tr>
+<tr>
+<td>⌘⇧V</td>
+<td>'Paste from History'</td>
+<td></td>
+<td>X</td>
+<td>Search &amp; paste from clipboard history</td>
+</tr>
+<tr>
+<td>⌘B</td>
+<td>'Declaration'</td>
+<td></td>
+<td>X</td>
+<td>Go to declaration of method</td>
+</tr>
+<tr>
+<td>⌘Y</td>
+<td>'Quick Definition'</td>
+<td></td>
+<td>X</td>
+<td>"Peek" quickly at declaration definition with pop-up</td>
+</tr>
+<tr>
+<td>⌥- Enter</td>
+<td>'Show Intention Actions'</td>
+<td></td>
+<td>X</td>
+<td>Show the "lightbulb" options ("intention actions")</td>
+</tr>
+<tr>
+<td>⌥⌘T</td>
+<td>'Surround With'</td>
+<td></td>
+<td>X</td>
+<td>Surround a block of code. Ex. "If…Then…Else"</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="tool-windows" class="anchor" href="#tool-windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tool Windows</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>RM Keymapping</strong></th>
+<th><strong>RM Action Name</strong></th>
+<th><strong>Re-map?</strong></th>
+<th><strong>Standard RM?</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘`</td>
+<td>View &gt; 'Tool Buttons'</td>
+<td>X</td>
+<td></td>
+<td>Adds toggles for "Tool Windows" tool bar on screen edges</td>
+</tr>
+<tr>
+<td>⌘8</td>
+<td>Other &gt; 'Database'</td>
+<td>X</td>
+<td></td>
+<td>Adds toggle for "Database" tool window</td>
+</tr>
+<tr>
+<td>⌘0</td>
+<td>Other &gt; 'Terminal'</td>
+<td>X</td>
+<td></td>
+<td>Adds toggle for "Terminal" tool window</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="tabs--panels" class="anchor" href="#tabs--panels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tabs &amp; Panels</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>RM Keymapping</strong></th>
+<th><strong>RM Action Name</strong></th>
+<th><strong>Re-map?</strong></th>
+<th><strong>Standard RM?</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘⌃← / →</td>
+<td>'Select Next/Previous Tab'</td>
+<td>X</td>
+<td></td>
+<td>Mimic Chrome; 2 modifiers = cycle between tabs in current column ("splitters" in RM terms)</td>
+</tr>
+<tr>
+<td>⌘⌥⌃↑</td>
+<td>'Split Vertically' Editor Tabs</td>
+<td>X</td>
+<td></td>
+<td>Personal choice - All 3 modifiers= add/drop/change columns ("splitters" in RM terms)</td>
+</tr>
+<tr>
+<td>⌘⌥⌃↓</td>
+<td>'Unsplit' Editor Tabs</td>
+<td>X</td>
+<td></td>
+<td>''</td>
+</tr>
+<tr>
+<td>⌘⌥⌃←/→</td>
+<td>'Move to Opposite Group'</td>
+<td>X</td>
+<td></td>
+<td>Personal Choice - Moves the tab to a different column ("splitters" in RM terms)</td>
+</tr>
+<tr>
+<td>⌥Tab</td>
+<td>'Goto to Next Splitter'</td>
+<td></td>
+<td>X</td>
+<td>Switches cursor focus between columns ("splitters" in RM terms) - ST3 binging of ⌘K or ⌘← / → was unreliable for me due to other Mac bindings; Atom has no standard key mapping</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="edit-lines--text" class="anchor" href="#edit-lines--text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Edit Lines / Text</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>RM Keymapping</strong></th>
+<th><strong>RM Action Name</strong></th>
+<th><strong>Re-map?</strong></th>
+<th><strong>Standard RM?</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘] / [</td>
+<td>'Indent' / 'Unindent Line or Selection'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌃⌘↑ / ↓</td>
+<td>'Move Line Up/Down'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⇧⌘D</td>
+<td>'Duplicate Line'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌃⇧K</td>
+<td>'Delete Line'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌘J</td>
+<td>'Join Lines</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3 - brings up the line below &amp; adds to end of current line</td>
+</tr>
+<tr>
+<td>⌥⌘L</td>
+<td>'Reformat  Code'</td>
+<td></td>
+<td>X</td>
+<td>'Reformats' or 'prettfies' code based on syntax settings: aligns hashes, brackets etc.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="selections--multi-cursor" class="anchor" href="#selections--multi-cursor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Selections &amp; Multi-Cursor</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>RM Keymapping</strong></th>
+<th><strong>RM Action Name</strong></th>
+<th><strong>Re-map?</strong></th>
+<th><strong>Standard RM?</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⌘D</td>
+<td>'Add selection for next occurrence'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌃⌘G</td>
+<td>'Select all occurrences'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌘L</td>
+<td>'Select Line at Caret'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌃⇧↑ / ↓</td>
+<td>'Clone Caret Above' / 'Below'</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+<tr>
+<td>⌘ Left Click</td>
+<td>'Add or Remove Caret' w/ mouse</td>
+<td>X</td>
+<td></td>
+<td>Mimic ST3</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+
+<h3>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h3>
+
+<p><a href="https://www.jetbrains.com/ruby/">RubyMine</a></p>
+
+<h3>
+<a id="importing-settings-installing-keymaps" class="anchor" href="#importing-settings-installing-keymaps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Importing Settings (Installing Keymaps)</h3>
+
+<ol>
+<li>Download the .jar folder 
+
+<ul>
+<li>Or...if you want to know exactly what you are downloading - download all other individual folders EXCEPT for the .jar folder. Then zip them &amp; turn them into your own .jar folder (see "notes on .jar files" below).</li>
+</ul>
+</li>
+<li>Go to File &gt; Import Settings and specify the directory where the <code>rubymine_atom_sublimetext_RMAST.jar</code> lives. </li>
+<li>Click on "Keymaps" and click <code>OK</code>.</li>
+<li>Restart RubyMine</li>
+<li>Go to Preferences &gt; Keymap &gt; Keymaps and select the new keymap <code>RMAST</code>
+</li>
+</ol>
+
+<h3>
+<a id="exporting-settings" class="anchor" href="#exporting-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exporting Settings</h3>
+
+<ol>
+<li>RubyMine &gt; File &gt; Export Settings...</li>
+<li>You can just chose "Keymaps" for the export, or select all</li>
+<li>RubyMine will export a .jar file filled with your setttings</li>
+</ol>
+
+<h3>
+<a id="notes-on-jar-files" class="anchor" href="#notes-on-jar-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes on .jar files</h3>
+
+<p>I'm not an expert in Java, but here's what I've learned</p>
+
+<p>Mac:  </p>
+
+<ul>
+<li>You can safely turn <code>.jar</code> files into <code>.zip</code> files (and back again) just by changing the file extension<br>
+</li>
+<li>This allows you to examine the contents of the <code>.jar</code> file</li>
+</ul>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+
+<h3>
+<a id="questions-feedback" class="anchor" href="#questions-feedback" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Questions, Feedback</h3>
+
+<p>Please post questions or feedback in an <a href="https://github.com/ckib16/rubymine_atom_sublimetext_RMAST/issues">Issue</a>.</p>
+
+<h3>
+<a id="contributing-1" class="anchor" href="#contributing-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h3>
+
+<p>If you have a new keybinding you think might fit the spirit of this repo:
+1. Submit your proposed key binding as an "Issue"
+2. If I like the binding I'll add it and post a new settings file
+3. If not, feel free to fork, modify and set-up your own keymap!</p>
+
+<hr>
+
+<h2>
+<a id="other-rubymine-stuff" class="anchor" href="#other-rubymine-stuff" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other RubyMine Stuff</h2>
+
+<h3>
+<a id="disable-case-sensitivity" class="anchor" href="#disable-case-sensitivity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disable Case Sensitivity</h3>
+
+<ul>
+<li>RubyMine uses first letter case sensitivity per default. This means that if you type e, Exception won't be offered as a viable completion. This is why I disable case sensitivity completion.<br>
+
+<ul>
+<li>
+<code>Editor &gt; General &gt; Code Completion &gt; Case Sensitive completion : NONE</code><br>
+</li>
+<li><a href="http://saqibrazaq.com/RubyMine-basic-configuration/">http://saqibrazaq.com/RubyMine-basic-configuration/</a></li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="theme-changes-rms-monokai-theme-w-darkula-background" class="anchor" href="#theme-changes-rms-monokai-theme-w-darkula-background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Theme changes: RM's Monokai theme w/ Darkula background</h3>
+
+<ul>
+<li>Changed comments to gray</li>
+<li>Changed editor gutter to gray</li>
+<li>Changed font size to 14</li>
+<li>Changed line height to 1.2</li>
+<li>This is included in the settings above under <code>Colors</code> named <code>Monokai - RMAST</code>
+</li>
+</ul>
+
+<h3>
+<a id="helpful-plugins" class="anchor" href="#helpful-plugins" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Helpful Plugins</h3>
+
+<table>
+<thead>
+<tr>
+<th>Plugin</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Markdown</td>
+<td>markdown support and preview pane</td>
+</tr>
+<tr>
+<td>Wrap to Column</td>
+<td>forces soft wraps at column width, doesn't apply to text already there, just new text &amp; when text is reformatted</td>
+</tr>
+<tr>
+<td>Railways</td>
+<td>shows quick rake routes display as a side panel</td>
+</tr>
+<tr>
+<td>Dash</td>
+<td>⌘⇧D for Dash documentation</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>
+<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Me</h2>
+
+<ul>
+<li><a href="http://chriskibble.net">Page</a></li>
+<li><a href="https://github.com/ckib16">Github</a></li>
+</ul>
+
+<p>Inspired by <a href="https://github.com/leopku/rubymine-keymap-sublime">@leopku</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/ckib16/rubymine_atom_sublimetext_RMAST/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/ckib16/rubymine_atom_sublimetext_RMAST/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/ckib16/rubymine_atom_sublimetext_RMAST"></a> is maintained by <a href="https://github.com/ckib16">ckib16</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
