@@ -7,8 +7,11 @@ I love me some RubyMine. But I didn't want to give up the great key bindings fro
 ##Why
 - RubyMine is great. But being able to jump to ST3 or Atom is very handy and avoids letting one editor "lock you in"
 - ST3 is the "industry leader" with nice key mappings and multiple cursor option. Atom has followed the ST3 lead with most key bindings.
-- I wanted to practice on one keymap that works well on all three editors. And I needed a cheat-sheet to help me practice the most useful editor key bindings.
+- I wanted to practice on one keymap that works well on all three editors. And I needed a cheat-sheet to help me practice the most useful editor key bindings.  
 
+But…why the acronym?  
+
+* I was in the military. It’s what we do.
 
 ##Notes
 - `/` is used in the chart below to separate similar commands, it is not meant to be typed
@@ -97,16 +100,13 @@ Mac:
 - This allows you to examine the contents of the `.jar` file
 
 ## Contributing
+If you have a new keybinding you think might fit the spirit of this repo:  
+1. Submit your proposed key binding as an "Issue"  
+2. If I like the binding I'll add it and post a new settings file  
+3. If not, feel free to fork, modify and set-up your own keymap!  
 
-### Questions, Feedback
+### Questions, Feedback  
 Please post questions or feedback in an [Issue](https://github.com/ckib16/rubymine_atom_sublimetext_RMAST/issues).
-
-
-### Contributing
-If you have a new keybinding you think might fit the spirit of this repo:
-1. Submit your proposed key binding as an "Issue"
-2. If I like the binding I'll add it and post a new settings file
-3. If not, feel free to fork, modify and set-up your own keymap!
 
 ---
 
@@ -137,4 +137,3 @@ If you have a new keybinding you think might fit the spirit of this repo:
 * [Github](https://github.com/ckib16)
 
 Inspired by [@leopku](https://github.com/leopku/rubymine-keymap-sublime)
-
