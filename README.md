@@ -11,10 +11,6 @@ With this repo...
 - ST3 is the "industry leader" with nice key mappings and multiple cursor option. Atom has followed the ST3 lead with most key bindings.
 - I wanted to practice on one keymap that works well on all three editors. And I needed a cheat-sheet to help me practice the most useful editor key bindings.  
 
-But…why the acronym?  
-
-* I was in the military. It’s what we do.
-
 ##Notes
 - `/` is used in the chart below to separate similar commands, it is not meant to be typed
 - Where conflicts occurred when adding a new binding, the default RubyMine key binding was removed to prevent future errors & unintended actions
