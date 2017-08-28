@@ -1,4 +1,5 @@
-#RubyMine Atom Sublime Text (RMAST)
+# RubyMine Atom Sublime Text (RMAST)
+
 I love me some RubyMine. But I didn't want to give up the great key bindings from Atom and Sublime Text. So I started looking for resources that could help me bridge the three editors. This RMAST ("R Mast ") repo is the result.    
 
 With this repo...  
@@ -6,19 +7,21 @@ With this repo...
 - I added the best Atom and Sublime Text 3 (ST3) key bindings to the RubyMine (RM) key map. 
 - I made a cheatsheet to help drill them into my head
 
-##Why
+## Why
+
 - RubyMine is great. But being able to jump to ST3 or Atom is very handy and avoids letting one editor "lock you in"
 - ST3 is the "industry leader" with nice key mappings and multiple cursor option. Atom has followed the ST3 lead with most key bindings.
 - I wanted to practice on one keymap that works well on all three editors. And I needed a cheat-sheet to help me practice the most useful editor key bindings.  
 
-##Notes
+## Notes
+
 - `/` is used in the chart below to separate similar commands, it is not meant to be typed
 - Where conflicts occurred when adding a new binding, the default RubyMine key binding was removed to prevent future errors & unintended actions
 -  Some of the key mappings - such as the RubyMine editor pane management command 'Split Vertically' - are not a direct mapping of ST3 or Atom. But they are the closest RM comes to the same intent (in my opinion)
 
 ---
 
-##Search & Navigation
+## Search & Navigation
 
 | **RM Keymapping** | **RM Action Name** | **Re-map?** | **Standard RM?** | **Notes** |
 | --- | --- | --- | --- | --- |
@@ -33,14 +36,15 @@ With this repo...
 | ⌥- Enter | 'Show Intention Actions' |   | X | Show the "lightbulb" options ("intention actions") |
 | ⌥⌘T | 'Surround With' |   | X | Surround a block of code. Ex. "If…Then…Else" |
 
-##Tool Windows
+## Tool Windows
+
 | **RM Keymapping** | **RM Action Name** | **Re-map?** | **Standard RM?** | **Notes** |
 | --- | --- | --- | --- | --- |
-| ⌘`  | View > 'Tool Buttons' | X |  | Adds toggles for "Tool Windows" tool bar on screen edges |
+| ⌘\` | View > 'Tool Buttons' | X |  | Adds toggles for "Tool Windows" tool bar on screen edges |
 | ⌘8  | Other > 'Database' | X |  | Adds toggle for "Database" tool window |
 | ⌘0  | Other > 'Terminal' | X |  | Adds toggle for "Terminal" tool window |
 
-##Tabs & Panels
+## Tabs & Panels
 
 | **RM Keymapping** | **RM Action Name** | **Re-map?** | **Standard RM?** | **Notes** |
 | --- | --- | --- | --- | --- |
@@ -50,7 +54,7 @@ With this repo...
 | ⌘⌥⌃←/→ | 'Move to Opposite Group' | X |   | Personal Choice - Moves the tab to a different column ("splitters" in RM terms) |
 | ⌥Tab | 'Goto to Next Splitter' |   | X | Switches cursor focus between columns ("splitters" in RM terms) - ST3 binging of ⌘K or ⌘← / → was unreliable for me due to other Mac bindings; Atom has no standard key mapping |
 
-##Edit Lines / Text
+## Edit Lines / Text
 
 | **RM Keymapping** | **RM Action Name** | **Re-map?** | **Standard RM?** | **Notes** |
 | --- | --- | --- | --- | --- |
@@ -61,7 +65,7 @@ With this repo...
 | ⌘J | 'Join Lines | X |   | Mimic ST3 - brings up the line below & adds to end of current line |
 | ⌥⌘L | 'Reformat  Code' |   | X | 'Reformats' or 'prettfies' code based on syntax settings: aligns hashes, brackets etc. |
 
-##Selections & Multi-Cursor
+## Selections & Multi-Cursor
 
 | **RM Keymapping** | **RM Action Name** | **Re-map?** | **Standard RM?** | **Notes** |
 | --- | --- | --- | --- | --- |
@@ -108,7 +112,7 @@ Please post questions or feedback in an [Issue](https://github.com/ckib16/rubymi
 
 ---
 
-##Other RubyMine Stuff
+## Other RubyMine Stuff
 ### Disable Case Sensitivity
 - RubyMine uses first letter case sensitivity per default. This means that if you type e, Exception won't be offered as a viable completion. This is why I disable case sensitivity completion.    
     - `Editor > General > Code Completion > Case Sensitive completion : NONE`  
@@ -121,7 +125,8 @@ Please post questions or feedback in an [Issue](https://github.com/ckib16/rubymi
 - Changed line height to 1.2
 - This is included in the settings above under `Colors` named `Monokai - RMAST`
 
-###Helpful Plugins
+### Helpful Plugins
+
 | Plugin |  Description |
 | --- | --- |
 | Markdown |  markdown support and preview pane |
